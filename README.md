@@ -24,3 +24,11 @@ In general, Angular is a newer and more powerful framework than AngularJS, and i
 - **Testing:** Angular JS is designed in a way that we can test right from the start. So, it is very easy to test any of its components through unit testing and end-to-end testing.
 - **Model View Controller:** In Angular JS, it is very easy to develop application in a clean MVC way. You just have to split your application code into MVC components i.e. Model, View and the Controller.
 - Directives, filters, modules, routes etc.
+
+<br/>
+
+<br/>
+
+### 01 AngularJS Data Binding
+
+Data binding in AngularJS binds AngularJS expressions with AngularJS data.
