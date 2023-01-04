@@ -27,8 +27,18 @@ In general, Angular is a newer and more powerful framework than AngularJS, and i
 
 <br/>
 
+---
+
 <br/>
 
 ### 01 AngularJS Data Binding
 
 Data binding in AngularJS binds AngularJS expressions with AngularJS data.
+
+<br/>
+
+### 02 AngularJS Expressions
+
+In AngularJS, expressions are used to bind application data to HTML. AngularJS resolves the expression, and return the result exactly where the expression is written.
+
+Expressions are written inside double braces {{expression}}.
