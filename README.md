@@ -42,3 +42,15 @@ Data binding in AngularJS binds AngularJS expressions with AngularJS data.
 In AngularJS, expressions are used to bind application data to HTML. AngularJS resolves the expression, and return the result exactly where the expression is written.
 
 Expressions are written inside double braces {{expression}}.
+
+**Difference between AngularJS Expressions and JavaScript expressions:**
+
+- AngularJS expressions can be written inside HTML, while JavaScript expressions cannot.
+
+- AngularJS expressions support filters, while JavaScript expressions do not.
+
+- AngularJS expressions do not support conditionals, loops, and exceptions, while JavaScript expressions do.
+
+**Similarity between AngularJS Expressions and JavaScript expressions:**
+
+- AngularJS expressions and JavaScript expressions both can contain literals, operators and variables.
