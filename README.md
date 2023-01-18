@@ -6,24 +6,24 @@ Angular is the updated version of AngularJS, released in 2016. It is a complete 
 
 In general, Angular is a newer and more powerful framework than AngularJS, and it is recommended to use Angular for new projects. However, if you have an existing project built with AngularJS, you can continue to use AngularJS or migrate your project to Angular.
 
-| AngularJS                                                    | Angular                                                      |
-| :----------------------------------------------------------- | :----------------------------------------------------------- |
-| AngularJS is common and popular name of the first version of Angular1.0. | Angular is common and popular name of the Angular's version beyond 2+ |
-| AngularJS is a JavaScript-based open-source front-end web framework. | Angular is a TypeScript-based open-source full-stack web application framework. |
-| AngularJS uses the concept of scope or controller.           | Instead of scope and controller, Angular uses hierarchy of components as its primary architectural characteristic. |
-| AngularJS has a simple syntax and used on HTML pages along with the source location. | Angular uses the different expression syntax. It uses "[ ]" for property binding, and "( )" for event binding. |
+| AngularJS                                                                                                                                   | Angular                                                                                                                                                                                             |
+| :------------------------------------------------------------------------------------------------------------------------------------------ | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| AngularJS is common and popular name of the first version of Angular1.0.                                                                    | Angular is common and popular name of the Angular's version beyond 2+                                                                                                                               |
+| AngularJS is a JavaScript-based open-source front-end web framework.                                                                        | Angular is a TypeScript-based open-source full-stack web application framework.                                                                                                                     |
+| AngularJS uses the concept of scope or controller.                                                                                          | Instead of scope and controller, Angular uses hierarchy of components as its primary architectural characteristic.                                                                                  |
+| AngularJS has a simple syntax and used on HTML pages along with the source location.                                                        | Angular uses the different expression syntax. It uses "[ ]" for property binding, and "( )" for event binding.                                                                                      |
 | AngularJS is a simple JavaScript file which is used with HTML pages and doesn't support the features of a server-side programming language. | Angular uses of Microsoft's TypeScript language, which provides Class-based Object Oriented Programming, Static Typing, Generics etc. which are the features of a server-side programming language. |
-| AngularJS doesn't support dynamic loading of the page.       | Angular supports dynamic loading of the page.                |
+| AngularJS doesn't support dynamic loading of the page.                                                                                      | Angular supports dynamic loading of the page.                                                                                                                                                       |
 
 <br/>
 
 ### Advantages of AngularJS over other JavaScript frameworks:
 
-- **Dependency Injection:** Dependency Injection specifies a design pattern in which components are given their dependencies instead of hard coding them within the component.
-- **Two way data binding:** AngularJS creates a two way data-binding between the select element and the orderProp model. orderProp is then used as the input for the orderBy filter.
-- **Testing:** Angular JS is designed in a way that we can test right from the start. So, it is very easy to test any of its components through unit testing and end-to-end testing.
-- **Model View Controller:** In Angular JS, it is very easy to develop application in a clean MVC way. You just have to split your application code into MVC components i.e. Model, View and the Controller.
-- Directives, filters, modules, routes etc.
+-   **Dependency Injection:** Dependency Injection specifies a design pattern in which components are given their dependencies instead of hard coding them within the component.
+-   **Two way data binding:** AngularJS creates a two way data-binding between the select element and the orderProp model. orderProp is then used as the input for the orderBy filter.
+-   **Testing:** Angular JS is designed in a way that we can test right from the start. So, it is very easy to test any of its components through unit testing and end-to-end testing.
+-   **Model View Controller:** In Angular JS, it is very easy to develop application in a clean MVC way. You just have to split your application code into MVC components i.e. Model, View and the Controller.
+-   Directives, filters, modules, routes etc.
 
 <br/>
 
@@ -45,12 +45,20 @@ Expressions are written inside double braces {{expression}}.
 
 **Difference between AngularJS Expressions and JavaScript expressions:**
 
-- AngularJS expressions can be written inside HTML, while JavaScript expressions cannot.
+-   AngularJS expressions can be written inside HTML, while JavaScript expressions cannot.
 
-- AngularJS expressions support filters, while JavaScript expressions do not.
+-   AngularJS expressions support filters, while JavaScript expressions do not.
 
-- AngularJS expressions do not support conditionals, loops, and exceptions, while JavaScript expressions do.
+-   AngularJS expressions do not support conditionals, loops, and exceptions, while JavaScript expressions do.
 
 **Similarity between AngularJS Expressions and JavaScript expressions:**
 
-- AngularJS expressions and JavaScript expressions both can contain literals, operators and variables.
+-   AngularJS expressions and JavaScript expressions both can contain literals, operators and variables.
+
+### 03 AngularJS Directives
+
+AngularJS facilitates you to extend HTML with new attributes. These attributes are called directives.
+
+There is a set of built-in directive in AngularJS which offers functionality to your applications. You can also define your own directives.
+
+Directives are special attributes starting with ng- prefix.

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+</head>
+
+<body>
+
+    <div ng-controller="MyController">
+        <h1>{{ greeting }}</h1>
+        <my-directive></my-directive>
+    </div>
+
+    <script>
+        var app = angular.module("myApp", []);
+
+        app.controller("MyController", function ($scope) {
+            $scope.greeting = "Hello, AngularJS!";
+        });
+
+        app.directive("myDirective", function () {
+            return {
+                restrict: "E",
+                template: "<p>This is a custom directive.</p>"
+            };
+        });
+    </script>
+
+</body>
+
+</html>
