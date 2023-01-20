@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>AngularJS Example</title>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+</head>
+
+<body ng-app="myApp">
+
+    <script>
+        angular.module('myApp', [])
+            .controller('ExampleController', ['$scope', function ($scope) {
+                $scope.userName = 'Gunho';
+            }]);
+    </script>
+
+    <div ng-controller="ExampleController">
+        <label>Enter name: <input type="text" ng-model="userName"></label><br>
+        Hello <span>{{ userName }}</span>!
+    </div>
+
+</body>
+
+</html>
