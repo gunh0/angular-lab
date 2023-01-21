@@ -55,6 +55,8 @@ Expressions are written inside double braces {{expression}}.
 
 -   AngularJS expressions and JavaScript expressions both can contain literals, operators and variables.
 
+<br/>
+
 ### 03 AngularJS Directives
 
 AngularJS facilitates you to extend HTML with new attributes. These attributes are called directives.
